@@ -16,7 +16,8 @@ Ce fichier est le **socle commun** de toute l'équipe d'agents. Chaque agent le 
 - La V1 affiche uniquement un **historique d'activité** : exercices faits, temps passé, assiduité, niveau en cours, résultats bruts par séance sous forme de tableau.
 - **Interdits en V1** : courbe de progression, score agrégé, comparaison avant/après présentée comme mesure de l'état du patient, interprétation, alerte, recommandation thérapeutique. Le suivi de progression est prévu en V2 (classe IIa) ; le modèle de données doit déjà le permettre.
 - **Vocabulaire interdit** (UI, marketing, docs) : « progression », « évaluation », « bilan », « diagnostic », « amélioration clinique ». Vocabulaire à utiliser : « entraînement », « assiduité », « historique d'activité ».
-- **Données de santé** : hébergement HDS obligatoire (Scalingo ou Clever Cloud). Aucune donnée patient réelle hors production. Aucune donnée de santé envoyée à un service non HDS (LLM, analytics, e-mail).
+- **Phase MVP (preuve de concept)** : hébergement standard (non HDS) en UE, **uniquement avec des patients fictifs**. Les tests sont faits par des orthophonistes et des testeurs qui jouent le rôle du patient avec des profils inventés. Aucune donnée de santé réelle, aucun vrai patient (décision du 2026-11-24).
+- **Données de santé réelles** : hébergement HDS obligatoire (Scalingo ou Clever Cloud) **avant** le premier vrai patient. L'architecture du MVP doit permettre de migrer vers un hébergeur HDS sans refonte. Aucune donnée de santé envoyée à un service non HDS (LLM, analytics, e-mail).
 
 ## 3. L'équipe
 
