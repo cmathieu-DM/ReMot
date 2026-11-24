@@ -8,7 +8,7 @@ Ce fichier est le **socle commun** de toute l'équipe d'agents. Chaque agent le 
 - **Modèle économique** : abonnement B2B2C. L'orthophoniste paie et invite ses patients.
 - **Société** : Escyon (30 avenue de la Libération, 33320 Eysines), fabricant au sens du MDR.
 - **Décideur unique** : Christophe Mathieu (CEO). Aucun agent ne décide à sa place sur ce qui figure en section 4.
-- **Séparation stricte avec X-Pressure** : aucun document, code, compte, donnée, modèle ou outil X-Pressure. Tout est créé au nom d'Escyon.
+- **Séparation stricte avec X-Pressure** : aucun document, code, compte, donnée, modèle ou outil X-Pressure. Tout est créé au nom d'Escyon. Seule exception validée : le dépôt GitHub est hébergé sur le compte `cmathieu-DM` (voir `docs/decisions.md`, 2026-11-24).
 
 ## 2. Règles réglementaires non négociables (V1)
 

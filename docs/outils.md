@@ -5,7 +5,7 @@ Tous les comptes sont au nom d'Escyon, jamais avec des accès X-Pressure.
 | Outil | Usage | Priorité | Statut | Responsable |
 |---|---|---|---|---|
 | Domaine et e-mail pro | Base de tous les comptes | 1 | À créer | coo |
-| GitHub (organisation Escyon) | Code, backlog, échanges entre agents | 1 | À créer | coo / devops |
+| GitHub (cmathieu-DM/ReMot) | Code, backlog, échanges entre agents | 1 | Créé | coo / devops |
 | Hébergeur HDS (Scalingo ou Clever Cloud) | Hébergement des données de santé | 1 | À créer | devops |
 | Stripe | Abonnements | 1 | À créer | cfo / dev-backend |
 | Brevo | E-mails transactionnels | 2 | À créer | dev-backend |
